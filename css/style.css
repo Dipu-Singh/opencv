@@ -1,0 +1,54 @@
+.jumbotron {
+    width: 100%;
+    height: auto;
+    background-image: url(../Asset/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    /* clip-path: polygon(100% 0,100% 75%, 50% 100%,0 75%,0 0);
+    position: relative;
+    text-align: center; */
+}
+
+/* All Sub File Related css*/
+
+
+.cont {
+
+    background-image: url(../Asset/molecules.gif);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+
+
+.caption {
+    margin: 16px;
+}
+
+.Header {
+    color: rgb(61, 87, 206);
+    border-color: lightgrey;
+    border-style: dotted;
+    border-width: 1.5px;
+    border-radius: 16px;
+    width: 60%;
+    height: auto;
+    text-align: center;
+}
+
+#S {
+    color: lightseagreen;
+}
+
+.In {
+    background-image: url(../Asset/AlphaTesters.gif);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: right;
+    background-size: 30%;
+
+
+}
