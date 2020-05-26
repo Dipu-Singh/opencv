@@ -2,12 +2,9 @@
     width: 100%;
     height: auto;
     background-image: url(../Asset/bg.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-size: 100%;
     opacity: 0.8;
-    /* clip-path: polygon(100% 0,100% 75%, 50% 100%,0 75%,0 0);
-    position: relative;
-    text-align: center; */
 }
 
 /* All Sub File Related css*/
@@ -17,7 +14,7 @@
 
     background-image: url(../Asset/molecules.gif);
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
 }
@@ -41,14 +38,21 @@
 
 #S {
     color: lightseagreen;
+    font-weight: 600;
 }
 
-.In {
-    background-image: url(../Asset/AlphaTesters.gif);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position-x: right;
-    background-size: 30%;
+
+.Chat {
+    position: absolute;
+    margin-left: 75%;
+    top: 130px;
+    border: none;
+    overflow: hidden;
+    opacity: 0.6;
+
+}
 
 
+.small {
+    max-width: 400px;
 }
