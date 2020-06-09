@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     background-image: url(../Asset/bg.jpg);
-    background-repeat: repeat-x;
+
     background-size: 100%;
     opacity: 0.8;
 }
@@ -55,4 +55,27 @@
 
 .small {
     max-width: 400px;
+}
+
+.VD {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../Asset/molecules.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+
+
+}
+
+canvas {
+    width: fit-content;
+    position: absolute;
+
 }
