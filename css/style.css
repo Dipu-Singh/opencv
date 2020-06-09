@@ -2,6 +2,7 @@
     width: 100%;
     height: auto;
     background-image: url(../Asset/bg.jpg);
+    background-repeat: no-repeat;
 
     background-size: 100%;
     opacity: 0.8;
